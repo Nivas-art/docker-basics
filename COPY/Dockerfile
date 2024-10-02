@@ -5,3 +5,4 @@ RUN rm -rf index.html
 RUN mkdir index.html
 WORKDIR /index.html
 COPY index.html /usr/share/nginx/html/index.html
+CMD [ "sleep", "300" ]
