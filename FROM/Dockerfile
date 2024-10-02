@@ -1,0 +1,1 @@
+FROM ngnix:9
